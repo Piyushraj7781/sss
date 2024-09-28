@@ -1,0 +1,158 @@
+{
+  "files": [
+    {
+      "fileName": "./ref/net6.0/Microsoft.PowerShell.ConsoleHost.dll",
+      "SPDXID": "SPDXRef-File--ref-net6.0-Microsoft.PowerShell.ConsoleHost.dll-F75B25E0174BA42421B8B50F0BAAE36BF3765020",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cb8cca7c01308f8dd3c259261916748aeb9e7e24af7171986a090f87118a44ec"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f75b25e0174ba42421b8b50f0baae36bf3765020"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ref/net6.0/Microsoft.PowerShell.ConsoleHost.xml",
+      "SPDXID": "SPDXRef-File--ref-net6.0-Microsoft.PowerShell.ConsoleHost.xml-5DAE404E9E95510419352E118DA7580CECEEF610",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "61492db941a0fed4e5414499414dcc3abe315e57d77cd947bde74c3ed2483acb"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "5dae404e9e95510419352e118da7580ceceef610"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./runtimes/unix/lib/net6.0/Microsoft.PowerShell.ConsoleHost.dll",
+      "SPDXID": "SPDXRef-File--runtimes-unix-lib-net6.0-Microsoft.PowerShell.ConsoleHost.dll-EF2027157375CA1E045A102DFC12AE16789D4E48",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a9e6420f6053591e32e79a9f744915251480cb8a991e0e3920e59eb3e99f11cc"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ef2027157375ca1e045a102dfc12ae16789d4e48"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./runtimes/win/lib/net6.0/Microsoft.PowerShell.ConsoleHost.dll",
+      "SPDXID": "SPDXRef-File--runtimes-win-lib-net6.0-Microsoft.PowerShell.ConsoleHost.dll-AD6EDECB60C9F9ACCE4ABD206F919A24C5C0D524",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6a6ac23a983df390a76a7e6af835d9391db26f8faa6a4f1ef317ce0c4c358f2e"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "ad6edecb60c9f9acce4abd206f919a24c5c0d524"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    }
+  ],
+  "packages": [
+    {
+      "name": "System.Management.Automation",
+      "SPDXID": "SPDXRef-Package-B1BC666DE988D167220D8DA115B43CBA92110742D9AC3B09E30EE5F64E7D3620",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "7.2.15",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/System.Management.Automation@7.2.15"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "Microsoft.PowerShell.ConsoleHost",
+      "SPDXID": "SPDXRef-RootPackage",
+      "downloadLocation": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "37b0bbe8c6298221a905e51beaf5902ef10b8721"
+      },
+      "filesAnalyzed": true,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "7.2.15",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/Microsoft/sbom.microsoft/Microsoft.PowerShell.ConsoleHost@7.2.15?tag_id=49c868fe-656d-4fe4-a3b5-c4c76ba88f8a"
+        }
+      ],
+      "supplier": "Organization: Microsoft",
+      "hasFiles": [
+        "SPDXRef-File--runtimes-win-lib-net6.0-Microsoft.PowerShell.ConsoleHost.dll-AD6EDECB60C9F9ACCE4ABD206F919A24C5C0D524",
+        "SPDXRef-File--runtimes-unix-lib-net6.0-Microsoft.PowerShell.ConsoleHost.dll-EF2027157375CA1E045A102DFC12AE16789D4E48",
+        "SPDXRef-File--ref-net6.0-Microsoft.PowerShell.ConsoleHost.xml-5DAE404E9E95510419352E118DA7580CECEEF610",
+        "SPDXRef-File--ref-net6.0-Microsoft.PowerShell.ConsoleHost.dll-F75B25E0174BA42421B8B50F0BAAE36BF3765020"
+      ]
+    }
+  ],
+  "externalDocumentRefs": [],
+  "relationships": [
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-B1BC666DE988D167220D8DA115B43CBA92110742D9AC3B09E30EE5F64E7D3620",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "Microsoft.PowerShell.ConsoleHost 7.2.15",
+  "documentNamespace": "https://sbom.microsoft/1:2QSF7qZlbE-F7QrUJlEo7g:pHp_nUFvDUijZ4LrJ4RhoQ/696:409332/Microsoft.PowerShell.ConsoleHost:7.2.15:kSgLNzRVxkiRQC8oKPphmA",
+  "creationInfo": {
+    "created": "2023-09-21T17:20:22Z",
+    "creators": [
+      "Organization: Microsoft",
+      "Tool: Microsoft.SBOMTool-1.5.2"
+    ]
+  },
+  "documentDescribes": [
+    "SPDXRef-RootPackage"
+  ]
+}

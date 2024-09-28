@@ -1,0 +1,115 @@
+{
+  "files": [
+    {
+      "fileName": "./ref/net6.0/Microsoft.WSMan.Runtime.xml",
+      "SPDXID": "SPDXRef-File--ref-net6.0-Microsoft.WSMan.Runtime.xml-8C4F166479AF3774677E441CDFD694EAAF11EC81",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e5189d8ece78e330f88f77fbae622b761d8bacc5326b767145e9c609ed6b9783"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "8c4f166479af3774677e441cdfd694eaaf11ec81"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ref/net6.0/Microsoft.WSMan.Runtime.dll",
+      "SPDXID": "SPDXRef-File--ref-net6.0-Microsoft.WSMan.Runtime.dll-3D4CD9FE1AB62AB187898321FA5FC0E08C4D425E",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0eea6ef5c58f338af4e655d1cb5b68299232672270955685d3c6411f524bcdcd"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "3d4cd9fe1ab62ab187898321fa5fc0e08c4d425e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./runtimes/win/lib/net6.0/Microsoft.WSMan.Runtime.dll",
+      "SPDXID": "SPDXRef-File--runtimes-win-lib-net6.0-Microsoft.WSMan.Runtime.dll-D815081E6C9C46358F5A65F1B47B53E8FDFCBD23",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9ee0c48abb912accf9cd0b55bbccba62f33f2e00d90b64bc2092357409c303b2"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "d815081e6c9c46358f5a65f1b47b53e8fdfcbd23"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    }
+  ],
+  "packages": [
+    {
+      "name": "Microsoft.WSMan.Runtime",
+      "SPDXID": "SPDXRef-RootPackage",
+      "downloadLocation": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "9c0c162a2aa7c9d00f21127751741c3e25cf3bcb"
+      },
+      "filesAnalyzed": true,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "7.2.15",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/Microsoft/sbom.microsoft/Microsoft.WSMan.Runtime@7.2.15?tag_id=b8c22058-19ee-4fc3-b597-49fb87ff64b0"
+        }
+      ],
+      "supplier": "Organization: Microsoft",
+      "hasFiles": [
+        "SPDXRef-File--runtimes-win-lib-net6.0-Microsoft.WSMan.Runtime.dll-D815081E6C9C46358F5A65F1B47B53E8FDFCBD23",
+        "SPDXRef-File--ref-net6.0-Microsoft.WSMan.Runtime.dll-3D4CD9FE1AB62AB187898321FA5FC0E08C4D425E",
+        "SPDXRef-File--ref-net6.0-Microsoft.WSMan.Runtime.xml-8C4F166479AF3774677E441CDFD694EAAF11EC81"
+      ]
+    }
+  ],
+  "externalDocumentRefs": [],
+  "relationships": [
+    {
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "Microsoft.WSMan.Runtime 7.2.15",
+  "documentNamespace": "https://sbom.microsoft/1:2QSF7qZlbE-F7QrUJlEo7g:pHp_nUFvDUijZ4LrJ4RhoQ/696:409332/Microsoft.WSMan.Runtime:7.2.15:qAx9555Y2Eq5rrxLtCU95Q",
+  "creationInfo": {
+    "created": "2023-09-21T17:28:35Z",
+    "creators": [
+      "Organization: Microsoft",
+      "Tool: Microsoft.SBOMTool-1.5.2"
+    ]
+  },
+  "documentDescribes": [
+    "SPDXRef-RootPackage"
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "files": [
+    {
+      "fileName": "./ref/net6.0/Microsoft.PowerShell.Commands.Management.dll",
+      "SPDXID": "SPDXRef-File--ref-net6.0-Microsoft.PowerShell.Commands.Management.dll-638216B2543E6B53D39E89C6D02489D2DCA67147",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3d4eae0ab3a18d3d19d37405536c5eeae27d72ad24b387464107517cb08e34f4"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "638216b2543e6b53d39e89c6d02489d2dca67147"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ref/net6.0/Microsoft.PowerShell.Commands.Management.xml",
+      "SPDXID": "SPDXRef-File--ref-net6.0-Microsoft.PowerShell.Commands.Management.xml-ACAD1140C256D89730D6A3ECE6703992E4885406",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "96978528225bc738282ffcd149b99f23cfd3f217318de1ddbebb77852970ec63"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "acad1140c256d89730d6a3ece6703992e4885406"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./runtimes/unix/lib/net6.0/Microsoft.PowerShell.Commands.Management.dll",
+      "SPDXID": "SPDXRef-File--runtimes-unix-lib-net6.0-Microsoft.PowerShell.Commands.Management.dll-2BEF109918D4112FA47CD20E6E67834FC61AE598",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "814cd0da18b537e93b431fa9cb865c606b0da128d66b6a835213d83538e19173"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "2bef109918d4112fa47cd20e6e67834fc61ae598"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./runtimes/win/lib/net6.0/Microsoft.PowerShell.Commands.Management.dll",
+      "SPDXID": "SPDXRef-File--runtimes-win-lib-net6.0-Microsoft.PowerShell.Commands.Management.dll-57709C03EA5B8D0F94DAFE09F15BA84506575BCB",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7934265528a44f99d937af92f547e60eed226d9463826d429217528fd440e5d3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "57709c03ea5b8d0f94dafe09f15ba84506575bcb"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    }
+  ],
+  "packages": [
+    {
+      "name": "System.ServiceProcess.ServiceController",
+      "SPDXID": "SPDXRef-Package-9177087A8AB9AD00907F2E12AC82C95C274D54AA4CBEB75F66D63EBE89788854",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "6.0.1",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/System.ServiceProcess.ServiceController@6.0.1"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "Microsoft.PowerShell.Security",
+      "SPDXID": "SPDXRef-Package-A5369BF21A8E40C2AC4F2229D8477294C910D114AB3CF3996C450F08FCDDD14F",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "7.2.15",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/Microsoft.PowerShell.Security@7.2.15"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "Microsoft.PowerShell.Commands.Management",
+      "SPDXID": "SPDXRef-RootPackage",
+      "downloadLocation": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "3ecd538161b4be6327f56a3c72d8d573fb48d668"
+      },
+      "filesAnalyzed": true,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "7.2.15",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/Microsoft/sbom.microsoft/Microsoft.PowerShell.Commands.Management@7.2.15?tag_id=ae3ad45a-a291-40a7-96d5-775a847f2bf2"
+        }
+      ],
+      "supplier": "Organization: Microsoft",
+      "hasFiles": [
+        "SPDXRef-File--runtimes-win-lib-net6.0-Microsoft.PowerShell.Commands.Management.dll-57709C03EA5B8D0F94DAFE09F15BA84506575BCB",
+        "SPDXRef-File--ref-net6.0-Microsoft.PowerShell.Commands.Management.xml-ACAD1140C256D89730D6A3ECE6703992E4885406",
+        "SPDXRef-File--runtimes-unix-lib-net6.0-Microsoft.PowerShell.Commands.Management.dll-2BEF109918D4112FA47CD20E6E67834FC61AE598",
+        "SPDXRef-File--ref-net6.0-Microsoft.PowerShell.Commands.Management.dll-638216B2543E6B53D39E89C6D02489D2DCA67147"
+      ]
+    }
+  ],
+  "externalDocumentRefs": [],
+  "relationships": [
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-9177087A8AB9AD00907F2E12AC82C95C274D54AA4CBEB75F66D63EBE89788854",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-A5369BF21A8E40C2AC4F2229D8477294C910D114AB3CF3996C450F08FCDDD14F",
+      "spdxElementId": "SPDXRef-RootPackage"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "Microsoft.PowerShell.Commands.Management 7.2.15",
+  "documentNamespace": "https://sbom.microsoft/1:2QSF7qZlbE-F7QrUJlEo7g:pHp_nUFvDUijZ4LrJ4RhoQ/696:409332/Microsoft.PowerShell.Commands.Management:7.2.15:mihmlfMMnEm82FX794asEw",
+  "creationInfo": {
+    "created": "2023-09-21T17:16:06Z",
+    "creators": [
+      "Organization: Microsoft",
+      "Tool: Microsoft.SBOMTool-1.5.2"
+    ]
+  },
+  "documentDescribes": [
+    "SPDXRef-RootPackage"
+  ]
+}

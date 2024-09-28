@@ -1,0 +1,138 @@
+{
+  "files": [
+    {
+      "fileName": "./ref/net6.0/Microsoft.PowerShell.CoreCLR.Eventing.xml",
+      "SPDXID": "SPDXRef-File--ref-net6.0-Microsoft.PowerShell.CoreCLR.Eventing.xml-F6A48CA87FBF82EB78FA87A15A6035DAC33AB53A",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "93b96e92261c440d2c56cf0814e7a47c6145b1c0ca087d4df89d8deb52c3aad5"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "f6a48ca87fbf82eb78fa87a15a6035dac33ab53a"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./ref/net6.0/Microsoft.PowerShell.CoreCLR.Eventing.dll",
+      "SPDXID": "SPDXRef-File--ref-net6.0-Microsoft.PowerShell.CoreCLR.Eventing.dll-FDEE4F2775C70F4AFCBB86AEE507DC4A336BD7B5",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1e7640d7a5ea27702b4e4e81e6f415e67e2f0284f18cd8f119b8db7f1a5ec2d8"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fdee4f2775c70f4afcbb86aee507dc4a336bd7b5"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./runtimes/win/lib/net6.0/Microsoft.PowerShell.CoreCLR.Eventing.dll",
+      "SPDXID": "SPDXRef-File--runtimes-win-lib-net6.0-Microsoft.PowerShell.CoreCLR.Eventing.dll-0ABF80FC7D15651ADF844E83D2CCE90959903948",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9f1ff01c9ae9f7f4e6e536020e0321d05851c17a32216cb54366cb125d545ec3"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0abf80fc7d15651adf844e83d2cce90959903948"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    }
+  ],
+  "packages": [
+    {
+      "name": "System.Diagnostics.EventLog",
+      "SPDXID": "SPDXRef-Package-7C6B66E6438993913FDC04BC572AE4DF6572087685ABA8385E82B97D04D637D9",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "6.0.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:nuget/System.Diagnostics.EventLog@6.0.0"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "Microsoft.PowerShell.CoreCLR.Eventing",
+      "SPDXID": "SPDXRef-RootPackage",
+      "downloadLocation": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "61cbb9d4aa5e96ab312d48f84b9b81477d1b6eda"
+      },
+      "filesAnalyzed": true,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "7.2.15",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/Microsoft/sbom.microsoft/Microsoft.PowerShell.CoreCLR.Eventing@7.2.15?tag_id=df46a3c2-986b-49dd-916d-65de4ad23e8d"
+        }
+      ],
+      "supplier": "Organization: Microsoft",
+      "hasFiles": [
+        "SPDXRef-File--runtimes-win-lib-net6.0-Microsoft.PowerShell.CoreCLR.Eventing.dll-0ABF80FC7D15651ADF844E83D2CCE90959903948",
+        "SPDXRef-File--ref-net6.0-Microsoft.PowerShell.CoreCLR.Eventing.xml-F6A48CA87FBF82EB78FA87A15A6035DAC33AB53A",
+        "SPDXRef-File--ref-net6.0-Microsoft.PowerShell.CoreCLR.Eventing.dll-FDEE4F2775C70F4AFCBB86AEE507DC4A336BD7B5"
+      ]
+    }
+  ],
+  "externalDocumentRefs": [],
+  "relationships": [
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-7C6B66E6438993913FDC04BC572AE4DF6572087685ABA8385E82B97D04D637D9",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "Microsoft.PowerShell.CoreCLR.Eventing 7.2.15",
+  "documentNamespace": "https://sbom.microsoft/1:2QSF7qZlbE-F7QrUJlEo7g:pHp_nUFvDUijZ4LrJ4RhoQ/696:409332/Microsoft.PowerShell.CoreCLR.Eventing:7.2.15:bL6HjmehTESnT4uEtqR_Hg",
+  "creationInfo": {
+    "created": "2023-09-21T17:22:13Z",
+    "creators": [
+      "Organization: Microsoft",
+      "Tool: Microsoft.SBOMTool-1.5.2"
+    ]
+  },
+  "documentDescribes": [
+    "SPDXRef-RootPackage"
+  ]
+}

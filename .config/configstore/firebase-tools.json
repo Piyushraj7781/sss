@@ -1,0 +1,37 @@
+{
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1725903607908
+	},
+	"usage": true,
+	"analytics-uuid": "ff5293b0-72c4-4b8d-9373-74dad362b3cc",
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "107594100514623649891",
+		"email": "prajsm5@gmail.com",
+		"email_verified": true,
+		"at_hash": "PIT2kxkrmBPhNsKMqBw-DQ",
+		"iat": 1725903689,
+		"exp": 1725907289
+	},
+	"tokens": {
+		"expires_at": 1725907287219,
+		"access_token": "ya29.a0AcM612w1IFMzRqovt0UQULK27cQt3_qctCeER-sxM8K2IMv--ziYW-HoUV8drMM9OG9TK7a0QvLtef_d0-k6pgLvviGgnpyAAFH-FMGYizaAOL3VmaAlEPyW8wgCSv5lAonQTyN3bXsJ6ja7qhjRO54tfTDYGQDgi5E7FEXwquEMuQaCgYKAcUSARASFQHGX2Mit3wRH5coBxyeqN0kf3vrkw0181",
+		"expires_in": 3599,
+		"refresh_token": "1//0gdLol4qr_OV0CgYIARAAGBASNwF-L9IreV97sBZnqv3xWD92Uv9Bi_SMoEj-0OIyA_HBy37UTlS7XKgeUrOotcPXBcALyU2tBd0",
+		"scope": "https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/cloud-platform",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImQ3YjkzOTc3MWE3ODAwYzQxM2Y5MDA1MTAxMmQ5NzU5ODE5MTZkNzEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA3NTk0MTAwNTE0NjIzNjQ5ODkxIiwiZW1haWwiOiJwcmFqc201QGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiUElUMmt4a3JtQlBoTnNLTXFCdy1EUSIsImlhdCI6MTcyNTkwMzY4OSwiZXhwIjoxNzI1OTA3Mjg5fQ.OQXLcNIOVulhBouEJL6vW7HQNHlubRN05aohYU62eMP49le_EOPqp901Op_yRxsiqrs62xb39P9-EftMGUWaG8EDWtGrieaAhqIObkFaX3r7VE8BufQvO76nDxlnbVIcjeg2c6a-sDA6nTaWUWdNe-gx4g_mYMnTVFnnrM6J59A3i1RzrLJuX7ceQVwinNzPl2OKoBLci0Q2spXxTd8lgzxfV9LFb3Y4K-zmPq28TvGZO239C2NzrjsLKrm0YsX2GLe8FMEs_E4angoWZQXcpooAybNPlDFbiiR1hJSi6DrZwrnG6rRfalea5EwXF0MCt7stY5NKcY_3XUabiLMqug"
+	},
+	"activeProjects": {
+		"C:\\Users\\prajs": "todoaplication-7d1fb"
+	}
+}

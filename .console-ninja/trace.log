@@ -1,0 +1,49 @@
+21:59:21.634 info extension stopping host
+21:59:22.222 info host ------------ starting ------------
+21:59:22.292 info extension host process output: port:[51500]
+21:59:22.293 info extension 
+21:59:22.360 info host client connected: extension { address: '127.0.0.1', family: 'IPv4', port: 51500 }
+21:59:22.710 info host starting host: {"extensionFolder":"c:\\Users\\prajs\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.360","runtimeHookFile":"c:\\Users\\prajs\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.360\\out\\runtimeHook\\tracer.js","globalErrorHandlerFile":"c:\\Users\\prajs\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.360\\out\\runtimeHook\\errorHandler.js","networkLoggingHandlerFile":"c:\\Users\\prajs\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.360\\out\\runtimeHook\\networkLoggingHandler.js","filesToInstrument":[{"path":"c:\\Users\\prajs\\Desktop\\estate\\client\\tailwind.config.js","reason":"open"},{"path":"c:\\Users\\prajs\\Desktop\\estate\\client\\src\\App.jsx","reason":"open"}],"debug":false,"config":{"dateTimeFormat":"HH:mm:ss.SSS","dateTimeDisplayMode":"Absolute","installBinToPath":true,"openLinksInEditor":true,"maxLogViewerEntries":15000,"showWelcomeMessageInTools":true,"fontSize":10,"outputMode":"Beside File","captureFunctions":false,"searchUrl":"https://www.google.com/search?q={query}","enableProFeatures":true,"toolsToAutoPatch":["vite","angular","jest","webpack","next.js","nest.js","cypress","http-server","serve","live-server","nuxt","remix","qwik","hydrogen","serverless","astro"],"showErrors":true,"showLogsOnlyFromOpenedFiles":false,"showLogsFromLogPointsOnly":false,"showLogsFromMultipleRunningToolsTogether":false,"predictiveLoggingEnabled":true,"allowConsoleLogToTriggerPredictions":false,"showNetworkRequests":true},"allowedHosts":["localhost","127.0.0.1","example.cypress.io","Piyushraj7982","192.168.56.1","192.168.31.160"],"host":"127.0.0.1","forcedStart":false,"startTime":1727540961645}
+21:59:22.726 info host worker Starting Host Worker...
+21:59:22.749 info host starting tools discovery and integration
+21:59:22.750 info host creating C:\Users\prajs\.console-ninja\.bin
+21:59:22.755 info host installing C:\Users\prajs\.console-ninja\.bin\loader.js
+21:59:22.759 info host installing C:\Users\prajs\.console-ninja\.bin\console-ninja.ps1
+21:59:22.762 info host installing C:\Users\prajs\.console-ninja\.bin\console-ninja.cmd
+21:59:22.765 info host installing PATH C:\Users\prajs\.console-ninja\.bin
+21:59:23.943 info host looking for tools to patch
+21:59:24.123 info host found 2 tool file(s) to patch
+21:59:24.126 info host patching c:\users\prajs\desktop\estate\client\node_modules\vite\bin\vite.js
+21:59:24.197 info host Host's startup and patch time: 2552 ms
+21:59:24.198 info host completed tools discovery and integration
+21:59:24.205 ERR! host uncaught exception: No clients connected
+22:15:29.747 ERR! host uncaught exception: No clients connected
+22:15:59.786 ERR! host uncaught exception: No clients connected
+22:16:39.308 ERR! host uncaught exception: No clients connected
+22:17:14.101 ERR! host uncaught exception: No clients connected
+22:17:36.432 ERR! host uncaught exception: No clients connected
+22:19:48.903 info extension stopping host
+22:19:56.493 info extension stopping host
+22:19:57.651 info host ------------ starting ------------
+22:19:57.790 info extension host process output: port:[63170]
+22:19:57.790 info extension 
+22:19:57.897 info host client connected: extension { address: '127.0.0.1', family: 'IPv4', port: 63170 }
+22:19:58.376 info host worker Starting Host Worker...
+22:19:58.476 info host starting host: {"extensionFolder":"c:\\Users\\prajs\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.360","runtimeHookFile":"c:\\Users\\prajs\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.360\\out\\runtimeHook\\tracer.js","globalErrorHandlerFile":"c:\\Users\\prajs\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.360\\out\\runtimeHook\\errorHandler.js","networkLoggingHandlerFile":"c:\\Users\\prajs\\.vscode\\extensions\\wallabyjs.console-ninja-1.0.360\\out\\runtimeHook\\networkLoggingHandler.js","filesToInstrument":[{"path":"c:\\users\\prajs\\desktop\\all_project\\mern-estate-main\\client\\src\\pages\\updatelisting.jsx","reason":"search"},{"path":"c:\\users\\prajs\\desktop\\all_project\\mern-estate-main\\client\\src\\pages\\signup.jsx","reason":"search"},{"path":"c:\\users\\prajs\\desktop\\all_project\\mern-estate-main\\client\\src\\pages\\signin.jsx","reason":"search"},{"path":"c:\\users\\prajs\\desktop\\all_project\\mern-estate-main\\client\\src\\components\\oauth.jsx","reason":"search"},{"path":"c:\\users\\prajs\\desktop\\all_project\\mern-estate-main\\client\\src\\pages\\profile.jsx","reason":"search"},{"path":"c:\\users\\prajs\\desktop\\all_project\\mern-estate-main\\client\\src\\components\\contact.jsx","reason":"search"},{"path":"c:\\users\\prajs\\desktop\\all_project\\mern-estate-main\\client\\src\\pages\\createlisting.jsx","reason":"search"},{"path":"c:\\users\\prajs\\desktop\\all_project\\mern-estate-main\\client\\src\\pages\\home.jsx","reason":"search"},{"path":"c:\\users\\prajs\\desktop\\all_project\\mern-estate-main\\api\\index.js","reason":"search"},{"path":"c:\\Users\\prajs\\Desktop\\All_project\\mern-estate-main\\client\\index.html","reason":"open"}],"debug":false,"config":{"dateTimeFormat":"HH:mm:ss.SSS","dateTimeDisplayMode":"Absolute","installBinToPath":true,"openLinksInEditor":true,"maxLogViewerEntries":15000,"showWelcomeMessageInTools":true,"fontSize":10,"outputMode":"Beside File","captureFunctions":false,"searchUrl":"https://www.google.com/search?q={query}","enableProFeatures":true,"toolsToAutoPatch":["vite","angular","jest","webpack","next.js","nest.js","cypress","http-server","serve","live-server","nuxt","remix","qwik","hydrogen","serverless","astro"],"showErrors":true,"showLogsOnlyFromOpenedFiles":false,"showLogsFromLogPointsOnly":false,"showLogsFromMultipleRunningToolsTogether":false,"predictiveLoggingEnabled":true,"allowConsoleLogToTriggerPredictions":false,"showNetworkRequests":true},"allowedHosts":["localhost","127.0.0.1","example.cypress.io","Piyushraj7982","192.168.56.1","192.168.31.160"],"host":"127.0.0.1","forcedStart":false,"startTime":1727542196499}
+22:19:58.548 info host starting tools discovery and integration
+22:19:58.593 info host installing PATH C:\Users\prajs\.console-ninja\.bin
+22:19:59.597 info host looking for tools to patch
+22:19:59.628 info host found 0 tool file(s) to patch
+22:19:59.638 info host completed tools discovery and integration
+22:19:59.648 ERR! host uncaught exception: No clients connected
+22:21:57.362 ERR! host uncaught exception: No clients connected
+22:21:58.769 ERR! host uncaught exception: No clients connected
+22:22:03.406 ERR! host uncaught exception: No clients connected
+22:22:04.699 ERR! host uncaught exception: No clients connected
+22:22:06.214 ERR! host uncaught exception: No clients connected
+22:22:13.987 ERR! host uncaught exception: No clients connected
+22:22:15.465 ERR! host uncaught exception: No clients connected
+22:22:28.420 ERR! host uncaught exception: No clients connected
+22:25:12.101 info extension stopping host
+22:25:12.123 info host removing cache folder: f6b058b81a85f44108da2827a6af7e98
+22:25:12.200 info extension client disconnected: 1006 
